@@ -4,8 +4,6 @@
 
 Word Cloud
 
-<여기 앞에 무슨 소제목을 지어주면 좋을 것 같은데 어… 잘 모르겠습니다…>
-
 본격적으로 분석을 진행하기에 앞서, 조사와 접사 등 한국어 특성상 어떤 문장에서든 자주 나타나는 형태소를 제거하고 Word Cloud 이미지를 도출해내는 것이 평점별 영화 댓글을 살펴보는 데에 더 효과적이라고 생각했다. 이를 위해서 형태소를 실제적 의미를 담고 있는 실질 형태소와 문법적 역할을 담당하는 형식 형태소로 구분하였고, 이중에서 실질 형태소만을 Word Cloud 이미지 도출에 활용하였다. Word Cloud 이미지 도출에 사용된 품사 목록은 트위터 태거를 기준으로 Adjective, Adverb, Alpha, Exclamation, Foreign, Hashtag, Korean Particle, Modifier, Noun, Number, Verb의 총 11가지이다.
 excel의 필터 기능을 사용하여 위에서 제시한 11가지 품사를 선별한 뒤로는, 각 영화별 리뷰 댓글을 다시 평점에 따라 1점부터 3점까지, 4점부터 7점까지, 8점부터 10점까지의 3단계로 나누어 https://www.jasondavies.com/wordcloud/의 Word Cloud Generator를 통해 Word Cloud 이미지를 도출하였다. 해당 Word Cloud 이미지 도출 전 설정한 설정값은 Spiral: Archimedean, Scale: √n, 5 orientations from 0° to 0°, Numbers of words: 250이다.
 
